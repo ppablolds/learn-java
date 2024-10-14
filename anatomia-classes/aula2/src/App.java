@@ -4,11 +4,11 @@ public class App {
     public static void main(String[] args) {
 
         //Sempre que a variavel estiver toda em letra maiuscula, é um indicador de que ele e inalterada
-        final String BR = "Brasil"; //Este "final" indica que a variavel não pode ser alterada
+        //final String BR = "Brasil"; //Este "final" indica que a variavel não pode ser alterada
 
-        int ano = 2024; //Ao contrario que todos que não tiverem o "final", podem ser alterados
+        //int ano = 2024; //Ao contrario que todos que não tiverem o "final", podem ser alterados
 
-        ano = 2025;
+        //ano = 2025;
 
         //DECLARAÇÕES INVALIDAS
         // int numero&um = 1; // Os unicos simbolos permitidos são $ e _
