@@ -2,10 +2,10 @@
 import java.util.Scanner;
 
 public class Operacoes {
-    int num1;
-    int num2;
+    double num1;
+    double num2;
 
-    public void soma(int num1, int num2) {
+    public void soma(double num1, double num2) {
 
         System.out.println("------------------------------------");
         System.out.println("OPERÇÃO DE SOMA");
@@ -24,7 +24,7 @@ public class Operacoes {
         System.out.println("A soma de " + num1 + " + " + num2 + " = " + (num1 + num2));
     }
 
-    public void subtracao(int num1, int num2) {
+    public void subtracao(double num1, double num2) {
 
         System.out.println("------------------------------------");
         System.out.println("OPERÇÃO DE SUBTRAÇÃO");
@@ -43,7 +43,7 @@ public class Operacoes {
         System.out.println("A subtração de " + num1 + " - " + num2 + " = " + (num1 - num2));
     }
 
-    public void multiplicacao(int num1, int num2) {
+    public void multiplicacao(double num1, double num2) {
 
         System.out.println("------------------------------------");
         System.out.println("OPERÇÃO DE MULTIMIPLICAÇÃO");
@@ -62,7 +62,7 @@ public class Operacoes {
         System.out.println("A multiplicação de " + num1 + " * " + num2 + " = " + (num1 * num2));
     }
 
-    public void divisao(int num1, int num2) {
+    public void divisao(double num1, double num2) {
 
         System.out.println("------------------------------------");
         System.out.println("OPERÇÃO DE DIVISÃO");
