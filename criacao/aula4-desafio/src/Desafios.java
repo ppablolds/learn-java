@@ -12,29 +12,38 @@ public class Desafios {
         System.out.println("Resolvendo desafios em Java");
 
         /* OPERAÇÃO DE SOMA */
-        // Operacoes somar = new Operacoes();
+        Operacoes somar = new Operacoes();
 
-        // somar.soma(somar.num1, somar.num2);
+        somar.soma(somar.num1, somar.num2);
 
         /* OPERAÇÃO DE SUBTRAÇÃO */
-        // Operacoes subtrair = new Operacoes();
+        Operacoes subtrair = new Operacoes();
 
-        // subtrair.subtracao(subtrair.num1, subtrair.num2);
+        subtrair.subtracao(subtrair.num1, subtrair.num2);
 
         /* OPERAÇÕES DE MULTIPLICAÇÃO */
-        // Operacoes multiplicar = new Operacoes();
+        Operacoes multiplicar = new Operacoes();
 
-        // multiplicar.multiplicacao(multiplicar.num1, multiplicar.num2);
+        multiplicar.multiplicacao(multiplicar.num1, multiplicar.num2);
 
         /* OPERAÇÃO DE DIVISÃO */
-        // Operacoes dividir = new Operacoes();
+        Operacoes dividir = new Operacoes();
 
-        // dividir.divisao(dividir.num1, dividir.num2);
+        dividir.divisao(dividir.num1, dividir.num2);
 
-        /* SAUDACOES */
-        //System.out.println("------------------------------------------");
-        
-        //Saudacoes saudacoes = new Saudacoes();
-        //saudacoes.horarioAtual();
+        /* SAUDAÇÕES */
+        System.out.println("------------------------------------------");
+        System.out.println("Saudações");
+
+        Saudacoes saudacoes = new Saudacoes();
+        saudacoes.horarioAtual();
+
+        /* EMPRESTIMO */
+        System.out.println("------------------------------------------");
+        System.out.println("Emprestimo");
+        Emprestimo.calcular(1000.0, Emprestimo.getDuasParcelas());
+        Emprestimo.calcular(1000.0, Emprestimo.getTresParcelas());
+        Emprestimo.calcular(1000.0, 5);
+
     }
 }
