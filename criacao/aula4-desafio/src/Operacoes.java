@@ -16,10 +16,10 @@ public class Operacoes {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Digite um número: ");
-        num1 = scanner.nextInt();
+        num1 = scanner.nextDouble();
 
         System.out.println("Digite outro número: ");
-        num2 = scanner.nextInt();
+        num2 = scanner.nextDouble();
 
         System.out.println("A soma de " + num1 + " + " + num2 + " = " + (num1 + num2));
     }
@@ -35,10 +35,10 @@ public class Operacoes {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Digite um número: ");
-        num1 = scanner.nextInt();
+        num1 = scanner.nextDouble();
 
         System.out.println("Digite outro número: ");
-        num2 = scanner.nextInt();
+        num2 = scanner.nextDouble();
 
         System.out.println("A subtração de " + num1 + " - " + num2 + " = " + (num1 - num2));
     }
@@ -54,10 +54,10 @@ public class Operacoes {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Digite um número: ");
-        num1 = scanner.nextInt();
+        num1 = scanner.nextDouble();
 
         System.out.println("Digite outro número: ");
-        num2 = scanner.nextInt();
+        num2 = scanner.nextDouble();
 
         System.out.println("A multiplicação de " + num1 + " * " + num2 + " = " + (num1 * num2));
     }
@@ -73,10 +73,10 @@ public class Operacoes {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Digite um número: ");
-        num1 = scanner.nextInt();
+        num1 = scanner.nextDouble();
 
         System.out.println("Digite outro número: ");
-        num2 = scanner.nextInt();
+        num2 = scanner.nextDouble();
 
         System.out.println("A Divisão de " + num1 + " / " + num2 + " = " + (num1 / num2));
     }
