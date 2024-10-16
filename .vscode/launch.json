@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Desafios",
+            "request": "launch",
+            "mainClass": "Desafios",
+            "projectName": "learn-java_af13c391"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
