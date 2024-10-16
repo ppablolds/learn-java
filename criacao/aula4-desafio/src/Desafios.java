@@ -1,9 +1,9 @@
 
 /* 
  * Criar uma aplicação que mostre resolva as seguintes situações:
- * Calcule as 4 operaçoes matemáticas: soma, subtração, divisão e multiplicação.
- * A partir da hora do dia, informe a mensagem adequada: "Bom dia" "Boa tarde" ou "Boa noite"
- * Calcule o valor final de um emprestimo, a partir do valor solicitado. Taxas e parcelas influenciam.
+ * [ X ] Calcule as 4 operaçoes matemáticas: soma, subtração, divisão e multiplicação.
+ * [  ] A partir da hora do dia, informe a mensagem adequada: "Bom dia" "Boa tarde" ou "Boa noite"
+ * [  ] Calcule o valor final de um emprestimo, a partir do valor solicitado. Taxas e parcelas influenciam.
  * Defina arbitramente as taxas que influenciam nos valores.
  */
 
