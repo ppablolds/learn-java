@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DownloadProgress",
+            "request": "launch",
+            "mainClass": "DownloadProgress",
+            "projectName": "learn-java_af13c391"
+        },
+        {
+            "type": "java",
+            "name": "GerenciadorDePacotes",
+            "request": "launch",
+            "mainClass": "GerenciadorDePacotes",
+            "projectName": "learn-java_af13c391"
+        },
+        {
+            "type": "java",
+            "name": "Download",
+            "request": "launch",
+            "mainClass": "Download",
+            "projectName": "learn-java_af13c391"
+        },
+        {
+            "type": "java",
             "name": "Program",
             "request": "launch",
             "mainClass": "Program",
