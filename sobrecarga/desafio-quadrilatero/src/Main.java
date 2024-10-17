@@ -4,8 +4,13 @@ public class Main {
         //Quadrilatero
         System.out.println("Exercicio Quadrilatero: ");
 
-        Quadrilatero.area(3);
-        Quadrilatero.area(5, 5);
-        Quadrilatero.area(7, 8, 9);
+        double quadrado = Quadrilatero.area(3);
+        System.out.println("A área do quadrado é: " + quadrado);
+
+        double retangulo = Quadrilatero.area(4, 5);
+        System.out.println("A área do retangulo é: " + retangulo);
+
+        double trapezio = Quadrilatero.area(7, 8, 9);
+        System.out.println("A área do trapezio é: " + trapezio);
     }
 }
