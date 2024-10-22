@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ExampleList",
+            "request": "launch",
+            "mainClass": "ExampleList",
+            "projectName": "learn-java_af13c391"
+        },
+        {
+            "type": "java",
             "name": "Leitura",
             "request": "launch",
             "mainClass": "Leitura",
