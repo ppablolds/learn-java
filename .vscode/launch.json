@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "UncheckedExceptions",
+            "request": "launch",
+            "mainClass": "UncheckedExceptions",
+            "projectName": "learn-java_af13c391"
+        },
+        {
+            "type": "java",
             "name": "ExampleList",
             "request": "launch",
             "mainClass": "ExampleList",
