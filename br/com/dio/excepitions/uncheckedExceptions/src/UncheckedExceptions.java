@@ -13,11 +13,9 @@ public class UncheckedExceptions {
                 System.out.println("O resultado da divisão e: " + resultado);
                 continueLooping = false;
             } catch (NumberFormatException e) {
-                e.printStackTrace();
                 JOptionPane.showMessageDialog(null, "Entrada inválida. Por favor, digite apenas números.");
                 System.out.println("Entrada inválida. Por favor, digite apenas números.");
             } catch (ArithmeticException e) {
-                e.printStackTrace();
                 JOptionPane.showMessageDialog(null, "O denominador não pode ser 0.");
                 System.out.println("O denominador não pode ser 0.");
             }

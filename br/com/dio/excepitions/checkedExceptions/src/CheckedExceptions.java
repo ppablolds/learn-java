@@ -9,10 +9,8 @@ public class CheckedExceptions {
         try {
             imprimirArquivoNoConsole(nomeArquivo);
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
             JOptionPane.showMessageDialog(null, "Nome do arquivo inválido.");
         } catch (IOException e) {
-            e.printStackTrace();
             JOptionPane.showMessageDialog(null, "Ocorreu um erro inesperado na leitura, tente novamente mais tarde.");
         }
 

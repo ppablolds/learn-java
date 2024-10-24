@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CustomException",
+            "request": "launch",
+            "mainClass": "CustomException",
+            "projectName": "learn-java_af13c391"
+        },
+        {
+            "type": "java",
             "name": "CheckedExceptions",
             "request": "launch",
             "mainClass": "CheckedExceptions",
